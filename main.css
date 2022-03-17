@@ -34,8 +34,8 @@ body {
     padding: 0 50px;
 }
 #navbar__logo{
-    background-color: rgb(14, 22, 22);
-    background-image: linear-gradient(to top, rgb(10, 4, 4) 0%,rgb(2, 2, 5) 100%,);
+    background-color: rgb(154, 172, 37);
+    background-image: linear-gradient(to top, rgb(167, 194, 32) 0%,rgb(2, 2, 5) 100%,);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -82,7 +82,7 @@ height: 80px;
 }
 
 .button {
-    display: FLEX;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -117,5 +117,5 @@ height: 80px;
 }
 
 .main__content h1 {
-    
+
 }
