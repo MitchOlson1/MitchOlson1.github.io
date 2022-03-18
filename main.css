@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-    background: rgb(64, 12, 176);
+    background: #131313;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -34,8 +34,8 @@ body {
     padding: 0 50px;
 }
 #navbar__logo{
-    background-color: rgb(154, 172, 37);
-    background-image: linear-gradient(to top, rgb(167, 194, 32) 0%,rgb(2, 2, 5) 100%,);
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #f01468);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -64,7 +64,7 @@ height: 80px;
 }
 
 .navbar__links {
-    color: rgb(171, 39, 39);
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,14 +92,15 @@ height: 80px;
     border: none;
     outline: none;
     border-radius: 4px;
-    background: red;
-    color: aliceblue;
+    background: #fff
+    
 }
+
 
 /*Info*/
 
 .main {
-    background-color: rgb(63, 46, 191) ;
+    background-color: rgb(2, 1, 5) ;
 }
 
 .main__container {
@@ -109,13 +110,37 @@ height: 80px;
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: rgb(204, 13, 13);
+    background-color: rgb(0, 0, 0);
     z-index: 1;
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
 }
 
-.main__content h1 {
+.main__content {
+    color: #fe3b6f;
+    width: 100%;
+}
 
+.main__content h1 {
+    font-size: 2rem;
+    background-color: #fe3b6f;
+    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+
+}
+.main {
+    background-color: rgb(52, 49, 49) ;
+}
+
+.project__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
